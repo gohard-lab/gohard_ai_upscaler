@@ -34,6 +34,22 @@ YouTube: [PolymathDev_KR](https://www.youtube.com/@PolymathDev_KR)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16fUp2F2KiNN4pG767J0efkJfm-qQwi-Q?usp=sharing)
 
+## 📘 Google Colab: Step-by-Step Guide
+## 0. Save a Copy (The Very First Step)
+Before running anything, you must save a copy to your own Google Drive to enable editing and execution.
+
+Go to the top menu and click File.
+Select Save a copy in Drive.
+A new tab will open with the copy. Use this new tab to run the AI Upscaler.
+
+## 1. Enable GPU
+Go to Runtime > Change runtime type.
+Select T4 GPU and click Save.
+
+## 2. Run the Cells
+Click the [▶] Play button on the left of each code cell in order.
+If a warning appears, click Run anyway.
+
 
 Executable Files: Don't worry, the provided execution files are thoroughly tested and safe to use.
 
