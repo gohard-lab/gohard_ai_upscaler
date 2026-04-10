@@ -34,18 +34,18 @@ YouTube: [잡학다식 개발자](https://www.youtube.com/@PolymathDev_KR)
 [![구글 코랩(Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16fUp2F2KiNN4pG767J0efkJfm-qQwi-Q?usp=sharing)
 
 ## 구글 코랩 사용법 (사본 저장 포함)
-0. 내 드라이브에 사본 저장 (가장 먼저 할 일)
+### 0. 내 드라이브에 사본 저장 (가장 먼저 할 일)
 공유된 노트북은 '읽기 전용'일 수 있습니다. 본인이 자유롭게 실행하고 수정하려면 반드시 사본을 만들어야 합니다.
 
 상단 메뉴에서 **[파일(File)]**을 클릭합니다.
 **[드라이브에 사본 저장(Save a copy in Drive)]**을 선택합니다.
 새 탭으로 열린 '~의 사본' 노트북에서 작업을 진행하세요.
 
-## 1. GPU 가속기 설정
+### 1. GPU 가속기 설정
 상단 메뉴에서 런타임 > 런타임 유형 변경을 클릭합니다.
 하드웨어 가속기를 T4 GPU로 선택하고 저장을 누릅니다.
 
-## 2. 코드 실행
+### 2. 코드 실행
 각 코드 블록 왼쪽에 있는 [▶] 실행 버튼을 순서대로 누릅니다.
 경고창이 뜨면 **'무시하고 계속 실행'**을 선택하세요.
 
