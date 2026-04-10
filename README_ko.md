@@ -10,23 +10,9 @@ GoHard AI Upscaler는 저해상도 이미지에 새로운 생명력을 불어넣
 
 표준화된 환경: uv와 pyproject.toml을 통한 세련된 의존성 관리.
 
-## 설치 및 실행
-```Bash
-# 저장소 복제
-git clone https://github.com/gohard-lab/gohard_ai_upscaler.git
-cd gohard_ai_upscaler
-
-# uv를 이용한 패키지 설치
-uv sync
-
-# 실행
-uv run streamlit run src/app.py
-```
 
 ## ⚠️ 체리피커분들께 드리는 말씀
-"코드만 쏙 가져가시는 당신, 양심은 안녕하신가요?"
-
-유용한 코드를 공유하는 것은 개발자의 선의입니다. 그 선의에 보답하는 가장 쉬운 방법은 Star 버튼을 누르는 것입니다. 코드만 무임승차하고 뒤도 돌아보지 않는 '체리피커'가 되지 말아 주세요. 개발자의 밤샘이 헛되지 않도록, 최소한의 양심으로 Star 하나는 매너입니다.
+유용한 코드를 공유하는 것은 개발자의 선의입니다. 그 선의에 보답하는 가장 쉬운 방법은 Star 버튼을 누르는 것입니다. 코드만 무임승차하고 뒤도 돌아보지 않는 '체리피커'가 되지 말아 주세요. 개발자의 밤샘이 헛되지 않도록, 최소한의 양심으로 Star 하나는 매너입니다.^^
 
 ## 🔗 Links
 YouTube: [잡학다식 개발자](https://www.youtube.com/@PolymathDev_KR)

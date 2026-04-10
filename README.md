@@ -12,24 +12,6 @@ Privacy-First: Processes images locally; your data stays on your machine.
 
 Modern Workflow: Managed with uv for seamless dependency handling.
 
-## 🚀 Quick Start
-Installation
-This project uses uv as the package manager for a modern and fast Python environment.
-
-```Bash
-# Clone the repository
-git clone https://github.com/gohard-lab/gohard_ai_upscaler.git
-cd gohard_ai_upscaler
-
-# Install dependencies using uv
-uv sync
-```
-
-Running the App
-
-```Bash
-uv run streamlit run src/app.py
-```
 
 ## 🔗 Links
 YouTube: [PolymathDev_KR](https://www.youtube.com/@PolymathDev_KR)
