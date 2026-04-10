@@ -19,7 +19,7 @@ This project uses uv as the package manager for a modern and fast Python environ
 ```Bash
 # Clone the repository
 git clone https://github.com/gohard-lab/gohard_ai_upscaler.git
-cd gohard_-_ai_-_upscaler
+cd gohard_ai_upscaler
 
 # Install dependencies using uv
 uv sync
