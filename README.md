@@ -32,7 +32,8 @@ uv run streamlit run src/app.py
 ## 🔗 Links
 YouTube: [PolymathDev_KR](https://www.youtube.com/@PolymathDev_KR)
 
-GitHub: [gohard-lab](https://github.com/gohard-lab)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16fUp2F2KiNN4pG767J0efkJfm-qQwi-Q?usp=sharing)
+
 
 Executable Files: Don't worry, the provided execution files are thoroughly tested and safe to use.
 

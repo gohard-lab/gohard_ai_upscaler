@@ -13,8 +13,8 @@ GoHard AI Upscaler는 저해상도 이미지에 새로운 생명력을 불어넣
 ## 설치 및 실행
 ```Bash
 # 저장소 복제
-git clone https://github.com/gohard-lab/gohard-ai-upscaler.git
-cd gohard-ai-upscaler
+git clone https://github.com/gohard-lab/gohard_ai_upscaler.git
+cd gohard_ai_upscaler
 
 # uv를 이용한 패키지 설치
 uv sync
@@ -31,7 +31,7 @@ uv run streamlit run src/app.py
 ## 🔗 Links
 YouTube: [잡학다식 개발자](https://www.youtube.com/@PolymathDev_KR)
 
-GitHub: [gohard-lab](https://github.com/gohard-lab)
+[![구글 코랩(Colab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16fUp2F2KiNN4pG767J0efkJfm-qQwi-Q?usp=sharing)
 
 ## 🔒 Privacy & Analytics
 ※ 본 프로그램은 더 나은 서비스 제공과 에러 수정을 위해 익명화된 최소한의 사용 통계(기능 클릭 수 등)를 수집합니다. 개인 식별 정보는 일절 수집하지 않습니다.
