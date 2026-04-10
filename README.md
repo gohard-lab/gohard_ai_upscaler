@@ -1,4 +1,4 @@
-#📸 GoHard AI Upscaler
+*📸 GoHard AI Upscaler
 GoHard AI Upscaler is a sophisticated image enhancement tool designed to breathe new life into low-resolution images. Leveraging state-of-the-art AI models, this project provides a clean and efficient way to upscale images while preserving essential details and texture.
 
 ##✨ Features
