@@ -1,7 +1,7 @@
-*📸 GoHard AI Upscaler
+# 📸 GoHard AI Upscaler
 GoHard AI Upscaler is a sophisticated image enhancement tool designed to breathe new life into low-resolution images. Leveraging state-of-the-art AI models, this project provides a clean and efficient way to upscale images while preserving essential details and texture.
 
-##✨ Features
+## ✨ Features
 High-Fidelity Upscaling: Uses advanced neural networks to increase resolution without blurring.
 
 User-Friendly Interface: Built with a focus on simplicity and performance.
@@ -10,7 +10,7 @@ Privacy-First: Processes images locally; your data stays on your machine.
 
 Modern Workflow: Managed with uv for seamless dependency handling.
 
-##🚀 Quick Start
+## 🚀 Quick Start
 Installation
 This project uses uv as the package manager for a modern and fast Python environment.
 
@@ -29,14 +29,14 @@ Running the App
 uv run streamlit run src/app.py
 ```
 
-##🔗 Links
+## 🔗 Links
 YouTube: [PolymathDev_KR](https://www.youtube.com/@PolymathDev_KR)
 
 GitHub: [gohard-lab](https://github.com/gohard-lab)
 
 Executable Files: Don't worry, the provided execution files are thoroughly tested and safe to use.
 
-📢 Note to Developers (Cherry-pickers)
+## 📢 Note to Developers (Cherry-pickers)
 "A Star is the price of your conscience."
 
 We all love open source, but taking the hard-earned code without even a single click on the Star button is the definition of "Cherry-picking." If this tool saves your time or improves your project, don't just be a ghost. Reward the developer's effort—it costs you nothing, but means everything to us.
