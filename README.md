@@ -8,8 +8,6 @@ High-Fidelity Upscaling: Uses advanced neural networks to increase resolution wi
 
 User-Friendly Interface: Built with a focus on simplicity and performance.
 
-Privacy-First: Processes images locally; your data stays on your machine.
-
 Modern Workflow: Managed with uv for seamless dependency handling.
 
 
