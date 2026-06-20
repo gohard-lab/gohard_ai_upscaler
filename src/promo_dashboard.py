@@ -23,7 +23,7 @@ except ImportError:
 st.set_page_config(page_title="🚀 홍보 관제 시스템", layout="wide")
 
 # 앱 접속 로그 남기기
-log_app_usage("promotion_dashboard", "app_opened")
+# log_app_usage("promotion_dashboard", "app_opened")
 
 @st.cache_resource
 def get_supabase():
@@ -89,7 +89,7 @@ with tab_settings:
                         supabase.table("platform_codes").insert({
                             "code": new_code.upper(), "name": new_name, "site_url": new_url
                         }).execute()
-                        log_app_usage("promotion_dashboard", "platform_added", {"code": new_code.upper()})
+                        # log_app_usage("promotion_dashboard", "platform_added", {"code": new_code.upper()})
                         st.success(f"{new_name} 플랫폼이 등록되었습니다!")
                         st.rerun()
                     except Exception as e:
@@ -260,8 +260,8 @@ with tab_entry:
                     supabase.table("promotion_history").insert(new_promo_data).execute()
                     
                     # D. 트래커 연동 [cite: 2026-03-20]
-                    log_app_usage("promotion_dashboard", "post_and_media_registered", 
-                                   details={"platform": selected_code, "assets_count": len(asset_list)})
+                    # log_app_usage("promotion_dashboard", "post_and_media_registered", 
+                    #                details={"platform": selected_code, "assets_count": len(asset_list)})
                     
                     st.success(f"✅ '{title}' 기록 성공! 에셋 {len(asset_list)}개가 안전하게 저장되었습니다.")
                     
@@ -437,7 +437,7 @@ with tab_dash:
                             supabase.table("promotion_history").update({"media_assets": new_assets}).eq("id", row_id).execute()
                             
                             # 트래커 기록
-                            log_app_usage("promotion_dashboard", "assets_bulk_deleted", details={"count": len(selected_for_deletion)})
+                            # log_app_usage("promotion_dashboard", "assets_bulk_deleted", details={"count": len(selected_for_deletion)})
                             
                             st.success("선택한 파일이 삭제되었습니다.")
                             st.rerun()
